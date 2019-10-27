@@ -1,0 +1,66 @@
+ /*Site Title and Tagline Styles*/
+.siteTitle {
+    cursor: pointer;
+    font-size: 4em;
+    color: white;
+    margin-bottom: 0.10em;
+    margin-top: 0;
+}
+
+
+.siteTitle:hover {
+    color: black;
+}
+
+
+.tagline {
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+}
+
+
+/*Enter Button Styles*/
+.button1 {
+    background-color: transparent;
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    display: block;
+    width: 200px;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    box-shadow: 0 0 25px 0 black;
+
+}
+
+
+.button1:hover {
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+}
+
+
+/*background image styles*/
+.bg-img {
+    background: linear-gradient(-139deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), url("https://cdn.consumerscu.org/wp-content/uploads/2019/08/checking_account_1566231082.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+

@@ -1,0 +1,55 @@
+nav a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+}
+
+a {
+  padding: 18px;
+
+}
+
+
+
+nav {
+    background: transparent;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom-color: white;
+    border-bottom-style: groove;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    box-shadow: 0 0 15px 0 black;
+}
+
+.siteName {
+    font-size: 35px;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.siteName:hover {
+    color:black;
+}
+
+
+nav a:hover {
+    background-color:gainsboro;
+    color: black;
+}
+
+.sticky {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    box-shadow: 0 3px 12px 0 black;
+}

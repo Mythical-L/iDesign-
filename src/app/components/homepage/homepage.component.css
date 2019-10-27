@@ -1,0 +1,22 @@
+
+/*Section One*/
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*Responsive Settings*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
