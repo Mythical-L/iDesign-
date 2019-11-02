@@ -1,23 +1,41 @@
-nav a {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+
+li a {
+    display: block;
     color: white;
     text-decoration: none;
-    align-items: center;
+    text-align: center;
     font-size: 18px;
+    padding: 18px;
 }
 
-a {
-  padding: 18px;
-
+li a:hover {
+    background-color:gainsboro;
+    color: black;
 }
 
 
+/*  display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+*/
 
 nav {
     background: transparent;
-    display: flex;
     color: white;
-    justify-content: center;
-    align-items: center;
     border-bottom-color: white;
     border-bottom-style: groove;
     overflow: hidden;
@@ -29,27 +47,18 @@ nav {
     box-shadow: 0 0 15px 0 black;
 }
 
-.siteName {
+
+
+.siteBrand {
     font-size: 35px;
     cursor: pointer;
     padding: 18px;
 }
 
-.siteName:hover {
+
+.siteBrand:hover {
     color:black;
 }
 
 
-nav a:hover {
-    background-color:gainsboro;
-    color: black;
-}
 
-.sticky {
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    height: 120px;
-    width: 100%;
-    box-shadow: 0 3px 12px 0 black;
-}

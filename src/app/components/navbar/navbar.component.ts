@@ -1,5 +1,4 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { transition, animate, style, state, trigger } from '@angular/animations';
 
 @Component({
   selector: 'app-navbar',
